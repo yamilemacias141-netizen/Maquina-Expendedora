@@ -1,4 +1,6 @@
 package Logica;
+
+
 public enum tipoProducto 
 {
 	SANGUCHE,

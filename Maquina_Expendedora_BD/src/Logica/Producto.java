@@ -1,4 +1,6 @@
 package Logica;
+
+
 public class Producto 
 {
 	private String nombre;
@@ -32,10 +34,13 @@ public class Producto
 			break;
 		case 'B':
 			tipoaux = tipoProducto.BEBIDA;
+			break;
 		case'C':
 			tipoaux =  tipoProducto.GOLOSINA;
+			break;
 		case 'D':
 			tipoaux = tipoProducto.SALUDABLE;
+			break;
 
 		}
 		return tipoaux;
